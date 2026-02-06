@@ -118,7 +118,7 @@ tamanho = strlen(nome); //me fala quantos caracteres tem a palavra/frase
 strcpy(destino, origem); //eu consigo trocar a string1 (destino) pela string2 (origem), mesmo fazendo isto no meio do código
 
 ⚖️ strcmp
-strcmp(str1, str2); 
+strcmp(str1, str2);
 
 if (strcmp(str1, str2) == 0) {
 }

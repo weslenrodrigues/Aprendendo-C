@@ -11,6 +11,7 @@ int main () {
 
     printf ("Digite uma frase:\n");
     fgets (nome, 41, stdin);
+    fflush (stdin);
     tamanho = strlen(nome);
 
     if (tamanho >= 30) {
