@@ -115,13 +115,16 @@ char nome[20] = "Ana"; //é o jeito que a linguagem C guarda variaveis que são 
 tamanho = strlen(nome); //me fala quantos caracteres tem a palavra/frase
 
 📋 strcpy
-strcpy(destino, origem); //eu consigo trocar a string1 (destino) pela string2 (origem), mesmo fazendo isto no meio do código
+strcpy(destino, origem); //eu consigo trocar a string1 (destino) pela string2 (origem), mesmo fazendo isto no meio do código.É usado isso para mudar a variavel, pois não posso usar "=" já que é uma string
 
 ⚖️ strcmp
-strcmp(str1, str2);
+strcmp(str1, str2); //se str1 for igual a str1 o resultado será 0, serve como exemplo: if (strcmp(login, registro) == 0) {
+
+    printf ("Login realizado com sucesso");
+}
 
 if (strcmp(str1, str2) == 0) {
 }
 
-➕ strcat
+➕ strcat 
 strcat(destino, origem);
