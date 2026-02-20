@@ -27,26 +27,31 @@ int main () {
 
     printf ("Sua nota final foi:\n%f\n", notaTotal);
 
+    // 0 - 4,9 = E
     if (notaTotal >= 0 && notaTotal < 5) {
 
         printf ("Seu conceito foi: E");
     }
 
+    // 5 - 5,9 = D
     if (notaTotal >= 5 && notaTotal < 6) {
 
         printf ("Seu conceito foi: D");
     }
 
+    // 6 - 6,9 = C
     if (notaTotal >= 6 && notaTotal < 7) {
 
         printf ("Seu conceito foi: C");
     }
 
+    // 7 - 7,9 = B
     if (notaTotal >= 7 && notaTotal < 8) {
 
         printf ("Seu conceito foi: B");
     }
 
+    // 8 - 10 = A
     if (notaTotal >= 8 && notaTotal < 10) {
 
         printf ("Seu conceito foi: A");
