@@ -69,9 +69,10 @@ int main () {
         }
     }
 
-    if (opcaoMenu < 1 && opcaoMenu > 4) {
+    if (opcaoMenu < 1 || opcaoMenu > 4) {
 
-        printf ("Opcao invalida, escolha as opcoes de 1 a 4.");
+        printf ("Erro: Opcao invalida, escolha as opcoes de 1 a 4.");
+        return 0;
     } 
 
     return 0;
