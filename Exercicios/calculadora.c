@@ -60,7 +60,13 @@ int main () {
 
         float divisao = n1 / n2;
 
+        if (n2 != 0) {
+
         printf ("O resultado foi:\n%.2f", divisao);
+        } else {
+
+            printf ("Erro: Divisao por zero");
+        }
     }
 
     if (opcaoMenu < 1 && opcaoMenu > 4) {
